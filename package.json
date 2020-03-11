@@ -1,0 +1,30 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "Register and Login API",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbastian/node-auth1-project.git"
+  },
+  "author": "andrew bastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewbastian/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/andrewbastian/node-auth1-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "knex": "^0.20.11",
+    "node": "^13.10.1",
+    "nodemon": "^2.0.2",
+    "sqlite": "^3.0.3"
+  }
+}
