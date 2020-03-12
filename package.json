@@ -1,7 +1,7 @@
 {
   "name": "auth1-project",
   "version": "1.0.0",
-  "description": "Register and Login API",
+  "description": "Np# Authentication Project",
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
@@ -23,8 +23,7 @@
     "express": "^4.17.1",
     "helmet": "^3.21.3",
     "knex": "^0.20.11",
-    "node": "^13.10.1",
     "nodemon": "^2.0.2",
-    "sqlite": "^3.0.3"
+    "sqlite3": "^4.1.1"
   }
 }
